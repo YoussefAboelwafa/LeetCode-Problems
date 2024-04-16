@@ -7,7 +7,7 @@ class TreeNode(object):
         self.left = left
         self.right = right
 
-
+# print the tree in level order
 def printTree(root):
     if root is None:
         print("null")
